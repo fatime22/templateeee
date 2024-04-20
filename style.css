@@ -1,0 +1,161 @@
+.nav{
+    width: 100%;
+    height: 400px;
+    background-image: url(slider-bg.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.section1{
+    width: 75%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 200px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section1 div{
+    width: 25%;
+    height: 200px;
+    
+}
+
+.section1 h1{
+    font-size: 50px;
+}
+
+
+.section2{
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header1{
+    width: 75%;
+    height:1700px;
+    padding-top: 150px;
+    margin-left: 200px;
+    display: grid;
+    gap: 20px;
+
+}
+
+.header2{
+    display: none;
+}
+
+.ban1 , .ban2 , .ban3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ban4 {
+    width: 100%;
+    height: 400px;
+
+}
+
+.ban1 div ,.ban2 div,.ban3 div{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+}
+
+.ban4{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+.ban1 img,.ban2 img,.ban3 img,.ban4 img{
+    width: 100%;
+    height: 320px;
+}
+
+.header1 p{
+    text-align: center;
+    color: palevioletred;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+@media only screen and (max-width:700px){
+
+    .section1{
+        display: none;
+        
+    }
+    .section2{
+        width: 50%;
+        height: 600px;
+        background-color: white;
+        flex-direction: column;
+        display: grid;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .header1 div{
+        display: none;
+    }
+
+    .header2{
+        height: 5000px;
+        width: 100%;
+        display: grid;
+    
+    }
+
+    .header2 p{
+        text-align: center;
+        color: palevioletred;
+    }
+
+    .ban1 ,.ban2,.ban3 ,.ban4 {
+        display: grid;
+        gap: 10px;
+        
+    }
+
+    .ban1 div,.ban2 div,.ban3 div{
+        width: 100%;
+    }
+
+    .ban4{
+        margin-left: 70px;
+        width: 70%;
+    }
+
+    
+
+    
+
+    
+
+}
